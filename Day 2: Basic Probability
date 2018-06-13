@@ -1,0 +1,17 @@
+Objective 
+In this challenge, we practice calculating probability. 
+
+Task 
+In a single toss of 2 fair (evenly-weighted) six-sided dice, find the probability that their sum will be at most 9.
+<p>2 / 3</p>                   <p>5 / 6</p>
+<p>1 / 4</p>                   <p>1 / 6</p>
+
+Ans:  <p>5 / 6</p>
+
+explanation: 
+When two dice are rolled, we have 6 possibilities for each roll. Thus there are 36 total combinations.
+Let's list the combinations that result in sums greater than 9.
+(4,6) (6,4) (5,5) (6,5) (5,6) (6,6) which gives 6 out of 36 possiblities.
+But what we require is the probability that their sum will be "at most" 9
+Thus,the remaining 30/36 possibilities gives the less than or equal to 9 probability.
+i.e; 30/36 = 5/6
