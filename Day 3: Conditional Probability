@@ -1,0 +1,23 @@
+Objective 
+In this challenge, we get started with conditional probability. Check out the Tutorial tab for learning materials! 
+
+
+Task 
+Suppose a family has  children, one of which is a boy. What is the probability that both children are boys?
+
+1 / 3
+1 / 2
+2 / 3
+1 / 9
+
+Ans : 1/3
+explanation: The conditional probablity of A when B has occured already is denoted as P(A|B) = P(A∩B)/P(B)
+Conditional Probability: P(A|B) = P(A AND B)/P(A)
+
+P(Both are Boys | One is a Boy) = P(Both are Boys AND One is a Boy)/P(One is a Boy)
+
+P(One is a Boy)= 1 
+
+P(Both are Boys AND One is a Boy) = 1/3 (if one is a boy then BB, BG, or GB)
+
+P(Both are Boys | One is a Boy) = (1/3)/1 = 1/3
